@@ -1,0 +1,120 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #161d26;
+/*	background-image: url(../images/wave.jpg);
+	background-size: cover;
+	background-position: center;*/
+	overflow: hidden;
+}
+#reportbug {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #c7c7c7;
+}
+#reportbug a {
+	color: #C7C7C7;
+}
+#reportbug a:hover {
+	text-shadow: 1px 1px 10px #000;
+	text-decoration: none;
+}
+#header {
+	margin: 10px 50px 8px 50px;
+	padding: 0;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.67);
+	font-weight: bold;
+	font-size: 35px;
+}
+#homepanel {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	right: 0;
+	bottom: 0;
+	width: 1000px;
+	height: 500px;
+	margin: -250px 0 0 -500px;
+	background: #FFFFFF;
+	/*box-shadow: 4px 4px 20px 3px rgba(33, 33, 33, 0.82);*/
+	text-align: center;
+}
+.uibutton {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 40px;
+	margin-left: -90px;
+	font-size: 20px;
+	background-color: #2980b9;
+	color: #FFF;
+	line-height: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	user-select: none;
+}
+#startsingle {
+	top: 60px;
+}
+#starthost {
+	top: 115px;
+}
+#startjoin {
+	top: 170px;
+}
+#userid {
+	position: absolute;
+	top: 115px;
+	left: 0;
+	right: 0;
+	font-size: 20px;
+	line-height: 40px;
+	margin: 0;
+}
+#userid::before {
+	content: "Multiplayer Id: ";
+}
+#connectid {
+	position: absolute;
+	top: 170px;
+	left: 600px;
+	width: 250px;
+	font-size: 16px;
+	margin: 3px 0 0;
+}
+#connect {
+	position: absolute;
+	top: 170px;
+	left: 860px;
+	width: 90px;
+	font-size: 16px;
+	margin: 2px 0 0;
+}
+#maps {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 180px;
+	background-color: #bdc3c7;
+}
+#maps h3 {
+	font-weight: bold;
+	margin: 10px 0;
+	text-align: center;
+}
+.mapbutton {
+	background-color: #7f8c8d;
+	/*border-bottom: 1px solid #bdc3c7;*/
+	margin-bottom: 3px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	user-select: none;
+}
